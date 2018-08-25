@@ -95,3 +95,7 @@ ul {
 .column ul li p {
     text-align: center;
 }
+
+.column-card-list {
+    min-height: 50vh;
+}
