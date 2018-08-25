@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#board {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#board h1 {
+    text-align: center;
+}
+
+#board .create-column {
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    border: none;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.column {
+    width: 30%;
+    display: block;
+    min-height: 50vh;
+    margin: 4px;
+    position: relative;
+    background-color: beige;
+    -webkit-box-shadow: 1px 1px 3px 1px #bebeaa;
+    box-shadow: 1px 1px 3px 1px #bebeaa;
+}
+
+.card {
+    width: 90%;
+    min-height: 40px;
+    margin: 10px auto;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 10px 2px #dcdbb9;
+    box-shadow: 1px 1px 10px 2px #dcdbb9;
+}
+
+button.add-card {
+    margin: 20px auto;
+    width: 50%;
+    display: block;
+}
+
+.column-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column ul li {
+    list-style-type: none;
+}
+
+.btn-delete {
+    height: 15px;
+    width: 15px;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    line-height: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+.column h2 {
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+    margin: 0;
+}
+
+ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.column ul li p {
+    text-align: center;
+}
